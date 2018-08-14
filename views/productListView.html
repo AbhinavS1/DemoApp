@@ -1,0 +1,14 @@
+<div class="product_listing" ng-controller="imagesCtrl">
+	<table id="grid">
+    	<tr ng-repeat="media in mediaList">
+        	<td><img class="d" ng-click="redirectQuery($index)" ng-src="{{media[0].imagePath}}"/>
+        	<span>{{media[0].imageDesc}}</span></td>
+        	<td><img class="d" ng-click="redirectQuery($index)" ng-src="{{media[1].imagePath}}"/>
+        	<span>{{media[1].imageDesc}}</span></td>
+        	<td><img class="d" ng-click="redirectQuery($index)" ng-src="{{media[2].imagePath}}"/>
+        	<span>{{media[2].imageDesc}}</span></td>
+        	<td><img class="d" ng-click="redirectQuery($index)" ng-src="{{media[3].imagePath}}"/>
+        	<span>{{media[3].imageDesc}}</span></td>
+    	</tr>
+    </table>
+</div>
