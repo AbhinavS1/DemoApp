@@ -2,7 +2,7 @@ function appController($scope)
 {
     /**
      *  Private Method: _run()
-     *  The main function of the SubApp1Controller, where all the magic
+     *  The main function of the appController, where all the magic
      *      happens.
      */
     function _run() {
