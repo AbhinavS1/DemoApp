@@ -2,8 +2,8 @@ function queryController($scope)
 {
     /**
      *  Private Method: _run()
-     *  The main function of the SubApp1Controller, where all the magic
-     *      happens.
+     *  The main function of the queryController, where all the magic
+     *  happens.
      */
     function _run() {
         
